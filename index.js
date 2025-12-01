@@ -1,11 +1,8 @@
+// 2. Create the player object. Give it two keys, name and chips, and set their values
 let player = {
-    name: "Per",
-    chips: 200,
-    sayHello: function() {
-        console.log("Heisann!")
-    }
+    name: "mehedi",
+    chips: 300
 }
-
 let cards = []
 let sum = 0
 let hasBlackJack = false
