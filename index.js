@@ -1,7 +1,7 @@
 // 2. Create the player object. Give it two keys, name and chips, and set their values
 let player = {
-    name: "mehedi",
-    chips: 300
+    name: "Mehedi",
+    chips: 200
 }
 let cards = []
 let sum = 0
@@ -54,9 +54,9 @@ function renderGame() {
     messageEl.textContent = message
 }
 
-
+// && hasBlackJack === true
 function newCard() {
-    if (isAlive === true && hasBlackJack === false) {
+    if (isAlive === true) {
         let card = getRandomCard()
         sum += card
         cards.push(card)
